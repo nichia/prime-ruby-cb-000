@@ -13,10 +13,18 @@ def prime?(number)
       end
       divisor = divisor + 1
     end
-    binding.pry
+    # binding.pry
   end
 
   return is_prime
 end
 
-binding.pry
+#binding.pry
+#test
+numbers = (1..100).to_a
+def find_prime_numbers(string)
+  string.select { |number| prime?(number) }
+end
+
+prime_numbers = find_prime_numbers(numbers)
+puts "Prime numbers are: #{prime_numbers}"
