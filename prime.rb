@@ -12,8 +12,8 @@ def prime?(number)
         is_prime = false
       end
       divisor = divisor + 1
-      binding.pry
     end
+    binding.pry
   end
 
   return is_prime
