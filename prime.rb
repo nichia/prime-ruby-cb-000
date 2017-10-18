@@ -27,4 +27,4 @@ def find_prime_numbers(string)
 end
 
 prime_numbers = find_prime_numbers(numbers)
-puts "Prime numbers are: #{prime_numbers}"
+puts "Prime numbers are: #{prime_numbers.inspect}"
