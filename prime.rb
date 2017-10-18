@@ -20,7 +20,7 @@ def prime?(number)
 end
 
 #binding.pry
-#test
+#to test
 numbers = (1..100).to_a
 def find_prime_numbers(string)
   string.select { |number| prime?(number) }
