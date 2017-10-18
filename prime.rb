@@ -3,7 +3,7 @@ require 'pry'
 
 def prime?(number)
   is_prime = false
-  
+
   if number > 1
     is_prime = true
     divisor = 2
@@ -15,8 +15,8 @@ def prime?(number)
       binding.pry
     end
   end
-  
+
   return is_prime
 end
 
-
+binding.pry
